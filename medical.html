@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+	<title>Dento - Dentist & Medical website</title>
+	<link rel="stylesheet" type="text/css" href="medical.css">
+</head>
+<body>
+	<header class="bg-light p-0">
+		<div class="container ">
+			<div class="row">
+				<div class="col-2 col-md-4">
+					<p><i class="fa fa-map-marker text-primary mr-2"></i><span class="d-none d-md-inline-block">28 Jackson Street, Chicago, 7788569 USA </span></p>
+				</div>
+				<div class="col-2 col-md-4">
+					<p><i class="fa fa-envelope text-primary "></i><span class="d-none d-md-inline-block">info.dento@gmail.com</span></p>
+				</div>
+				<div class="col-8 col-md-4 text-right">
+					<ul class="social_media pb-0">
+						<li><i class="fab fa-facebook" title="facebook"></i></li>
+						<li><i class="fab fa-twitter" title="twitter"></i></li>
+						<li><i class="fab fa-google" title="google"></i></li>
+						<li><i class="fab fa-linkedin" title="linkedin"></i></li>
+						<li><i class="fab fa-instagram" title="instagram"></i></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<header class="bg-white p-0" style="position: sticky; top: 0px; z-index: 9999;" >
+		<div class="container ">
+			<div class="row">
+				<div class="col-5 col-md-2">
+					<img src="website-logo.png">
+				</div>
+				<div class="col-7  col-md-8 d-flex justify-content-center">
+					<nav class="navbar navbar-expand-lg navbar-light">
+					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					    <span class="navbar-toggler-icon"></span>
+					  </button>
+
+					  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					    <ul class="navbar-nav d-flex justify-content-center ">
+					      <li class="nav-item active">
+					        <a class="nav-link" href="#">Home</a>
+					      </li>
+					      <li class="nav-item dropdown">
+					        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+					          Pages
+					        </a>
+					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					          <a class="dropdown-item" href="#">- Home</a>
+					          <a class="dropdown-item" href="#">- About Us</a>
+					          <a class="dropdown-item" href="#">- Service</a>
+					          <a class="dropdown-item" href="#">- Pricing</a>
+					          <a class="dropdown-item" href="#">- Blog</a>
+					          <a class="dropdown-item" href="#">- Blog Details</a>
+					          <a class="dropdown-item" href="#">- Contact</a>
+					          <a class="nav-link dropdown-toggle ml-3" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+								  - Dropdown
+							  </a>
+							  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">- Dropdown item</a>
+								<a class="dropdown-item" href="#">- Dropdown item</a>
+								<a class="dropdown-item" href="#">- Dropdown item</a>
+								<a class="dropdown-item" href="#">- Dropdown item</a>
+							  </div>
+					        </div>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="#">About</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="#">Services</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="#">pricing</a>
+					      </li>
+					      <li class="nav-item dropdown">
+					        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+					          Blog
+					        </a>
+					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					          <a class="dropdown-item" href="#">- Blog</a>
+					          <a class="dropdown-item" href="#">- Blog Details</a>
+					        </div>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="#">Contact</a>
+					      </li>
+					      <li class="nav-item d-inline d-md-none">
+					          <button class="btn btn-primary">Booking Now</button>
+					      </li>
+					    </ul>
+					  </div>
+					</nav>
+				</div>
+				<div class="col-md-2 text-right d-none d-md-inline mt-2">
+					<button class="btn btn-primary">Booking Now</button>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section>
+		<div class="container-fluid">
+			<div class="row">
+			<div class="col-md-12 p-0">
+			<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner">
+			<div class="carousel-item slider1 slidersize active">
+			<div class="carousel-caption p-5 slider_data">
+				<div class="row ">
+				<div class="col-12">
+				<h1 class="displaysize font-weight-bold mt-4">We Believe Everyone Should Have Easy Access To Great Dental Care</h1>
+				<p class="slidertext mt-3">
+                    As a leading industry innovator, Dento is opening up exciting new opportunities for dental professionals, investors, employees & suppliers. Contact us to find out what we have to
+                    offer you. lorem1000</p>
+				 </div>
+				<div class=" col-12 mt-5 text-center">
+					<button class="btn btn-info btn-lg">Get Started</button>
+					<button class="btn btn-outline-info btn-lg">Contact Us</button>
+				</div>
+			</div>
+			</div>
+		</div>
+			<div class="carousel-item slider2 slidersize p-0">
+			<div class="carousel-caption p-5 slider_data">
+				<div class="row ">
+				<div class="col-12">
+				<h1 class="displaysize font-weight-bold mt-4">We Believe Everyone Should Have Easy Access To Great Dental Care</h1>
+				<p class="slidertext  mt-3">
+                    As a leading industry innovator, Dento is opening up exciting new opportunities for dental professionals, investors, employees & suppliers. Contact us to find out what we have to
+                    offer you.</p>
+				 </div>
+				<div class="col-12 mt-4 text-center">
+					<button class="btn btn-info btn-lg">Get Started</button>
+					<button class="btn btn-outline-info btn-lg">Contact Us</button>
+				</div>
+			</div>
+			</div>
+			</div>
+			<div class="carousel-item slider3 slidersize">
+				<div class="carousel-caption p-5 slider_data">
+					<div class="row ">
+						<div class="col-12">
+						<h1 class="displaysize font-weight-bold mt-4">We Believe Everyone Should Have Easy Access To Great Dental Care</h1>
+						<p class="slidertext  mt-3">
+							As a leading industry innovator, Dento is opening up exciting new opportunities for dental professionals, investors, employees & suppliers. Contact us to find out what we have to
+							offer you.</p>
+						</div>
+					<div class="col-12 mt-4 text-center">
+						<button class="btn btn-info btn-lg">Get Started</button>
+						<button class="btn btn-outline-info btn-lg">Contact Us</button>
+					</div>
+				</div>
+			</div>
+			</div>
+			</div>
+			</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="container mt-5 mb-5">
+		  <div class="row">
+
+			<div class="col-md-6 pt-5">
+			  <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="w-100 border border-danger  shadow">
+			</div>
+			
+			<div class="col-md-6 text-left">
+			  <h2 class="font-weight-bold mt-5"><span class="border_title">About Us</span></h2>
+			  
+			  <p class="text-justify">Vestibulum condimentum, risus sedones honcus rutrum, salah lacus mollis zurna, nec finibusmi velit advertisis. Proin vitae odin quis magna aliquet laciniae. Etiam auctor, nisi vel. Pellentesque ultrices nisl quam iaculis, nec pulvinar augue.</p>
+
+			  <div class=" col-md-6 mt-4 ">
+				  <h6 class="  font-weight-bold text-left ">Experience Dentist</h6>
+			  </div>
+			  <div class="progress text-right" style="height: 25px;">
+				<div class="progress-bar bg-primary progress-bar-animated text-light font-weight-bold" style="width: 80%;">80%</div>
+			  </div>
+			  <div class=" col-md-6 mt-4 ">
+				  <h6 class="  font-weight-bold text-left ">Morden Equipment</h6>
+			  </div>
+			  <div class="progress text-right" style="height: 25px;">
+				<div class="progress-bar bg-primary progress-bar-animated text-light font-weight-bold" style="width: 65%;">65%</div>
+			  </div>
+			  <div class=" col-md-6 mt-4 ">
+				  <h6 class="  font-weight-bold text-left ">Friendly Staff </h6>
+			  </div>
+			  <div class="progress text-right" style="height: 25px;">
+				<div class="progress-bar bg-primary progress-bar-animated text-light font-weight-bold" style="width: 80%;">85%</div>
+			  </div>
+
+			</div>
+		  </div>
+		</div>
+	  </section>
+
+	  <div class="container">
+		  <div class="row">
+			  <div class="col-12">
+				  <hr>
+			  </div>
+		  </div>
+	  </div>
+
+	  <section class="">
+		<div class="container mt-5 m mb-5">
+		  <div class="row">
+			<div class="col-md-6 col-lg-3 text-center p-5">
+				<i class="fab fa-react display-4 font-weight-bold text-primary"></i>
+			  <h3 class="font-weight-bold text-dark display-4">20</h3>
+			  <h5 class="font-weight-bold">
+				Years Of Experience
+			  </h5>
+			</div>
+			<div class="col-md-6 col-lg-3 text-center p-5">
+				<i class="far fa-heart display-4 text-primary"></i>
+			  <h3 class="font-weight-bold text-dark display-4">700+</h3>
+			  <h5 class="font-weight-bold">
+				Happy Patients
+			  </h5>
+			</div>
+			<div class="col-md-6 col-lg-3 text-center p-5">
+				<i class="far fa-book display-4 font-weight-bold text-primary"></i>
+				<h3 class="font-weight-bold text-dark display-4">120</h3>
+				<h5 class="font-weight-bold">
+					Certificate
+				</h5>
+			</div>
+			<div class="col-md-6 col-lg-3 text-center p-5">
+				<i class="far fa-id-card display-4 font-weight-bold text-primary"></i>
+			  <h3 class="font-weight-bold text-dark display-4">40+</h3>
+			  <h5 class="font-weight-bold">
+				Dentist
+			  </h5>
+			</div>
+		  </div>
+		</div>
+	  </section>
+
+	  <section class="services mt-4 mb-4">
+		<div class="services_data p-5">
+			<div class="container p-5">
+				<div class="row">
+					<div class="col-md-7">
+						<div class="row">
+							<div class="col-md-12 mb-4">
+								<h2 class="text-white font-weight-bold"><span class="border_title">Our Services</span></h2>
+							</div>
+							<div class="col-6 col-md-4 mt-3">
+								<div class="card card-body border-0 bg-transparent">
+									<i class="fas fa-paint-brush font-weight-bold h1 text-center text-white"></i>
+									<p class="text-white text-center">Teeth Whitening</p>
+								</div>
+							</div>
+							<div class="col-6 col-md-4 mt-3">
+								<div class="card card-body border-0 bg-transparent">
+									<i class="fas fa-search-plus font-weight-bold h1 text-center text-white"></i>
+									<p class="text-white text-center">Missing Teeth</p>
+								</div>
+							</div>
+							<div class="col-6 col-md-4 mt-3">
+								<div class="card card-body border-0 bg-transparent">
+									<i class="fas fa-tooth font-weight-bold h1 text-center text-white"></i>
+									<p class="text-white text-center">Teeth Whitening</p>
+								</div>
+							</div>
+							<div class="col-6 col-md-4 mt-3">
+								<div class="card card-body border-0 bg-transparent">
+									<i class="fas fa-desktop font-weight-bold h1 text-center text-white"></i>
+									<p class="text-white text-center">Cosmetic Dentistry</p>
+								</div>
+							</div>
+							<div class="col-6 col-md-4 mt-3">
+								<div class="card card-body border-0 bg-transparent">
+									<i class="fas fa-briefcase-medical font-weight-bold h1 text-center text-white"></i>
+									<p class="text-white text-center">Examination</p>
+								</div>
+							</div>
+							<div class="col-6 col-md-4 mt-3">
+								<div class="card card-body border-0 bg-transparent">
+									<i class="fas fa-grimace  font-weight-bold h1 text-center text-white"></i>
+									<p class="text-white text-center">Teeth Pain</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-5 mt-5">
+						<img src="https://media.istockphoto.com/photos/tooth-with-dental-mirror-picture-id1136317796?b=1&k=20&m=1136317796&s=170667a&w=0&h=n9F6A4tg6fTicSXbm1g9w7xR50mdYxuESTFYpyAkD-g=" alt="Tooth image" class="w-100 img-thumbnail border-danger shadow">
+					</div>
+				</div>
+			</div>
+	  	</section>
+
+		  <section>
+			  <div class="pricing p-5">
+				  <div class="container">
+					  <div class="row">
+						<div class="col-md-12 mb-4">
+							<h1 class="text-center "><span class="border_title ">Pricing</span></h1>
+						</div>
+					  </div>
+				  </div>
+				  <div class="container mt-5  justify-content-center">
+					  <div class="row">
+						  <div class="col-10 col-md-12">
+							<table class="table">
+								<thead class="p-2 bg-secondary text-white">
+								  <tr class="bg-primary text-white">
+									<th>Service Names</th>
+									<th>Stage</th>
+									<th>Price</th>
+								  </tr>
+								</thead>
+								<tbody class="table_background p-1 text-dark">
+								  <tr>
+									<td>Teeth Whitening Service at home	</td>
+									<td>1 times</td>
+									<td>$115.00</td>
+								  </tr>
+								  <tr>
+									<td>Teeth Whitening Service at Dental Clinic</td>
+									<td>1 times</td>
+									<td>$100.00</td>
+								  </tr>
+								  <tr>
+									<td>Ceramic crowns and fillings Dental porcelain</td>
+									<td>1 times</td>
+									<td>$99.00</td>
+								  </tr>
+								  <tr>
+									<td>Remove crowns, bridges Service</td>
+									<td>1 tooth</td>
+									<td>$50.00</td>
+								  </tr>
+								  <tr>
+									<td>Covering the recession of the gums</td>
+									<td>1 times</td>
+									<td>$400.00</td>
+								  </tr>
+								  <tr>
+									<td>Consultation, impressions and preparation models</td>
+									<td>1 times</td>
+									<td>$35.00</td>
+								  </tr>
+								  <tr>
+									<td>Removal of an old inlay, old crown</td>
+									<td>1 times</td>
+									<td>$99.00</td>
+								  </tr>
+								  <tr>
+									<td>Overlay teeth whitening ( 2 arches)</td>
+									<td>1 times</td>
+									<td>$170.00</td>
+								  </tr>
+								  <tr>
+									<td>Standard porcelain and zirconium crown implant</td>
+									<td>1 tooths</td>
+									<td>$499.00</td>
+								  </tr>
+								  <tr>
+									<td>Implantation of an implant (price depends system used)</td>
+									<td>1 tooth</td>
+									<td>$600.00</td>
+								  </tr>
+								</tbody>
+							  </table>
+						  </div>
+					  </div>
+				  </div>
+			  </div>
+			  <div class="container text-center mb-3">
+				<button type="button" class="btn btn-primary btn-outline-danger  btn-lg text-white">Read More<i class="fas fa-forward p-2" style="font-size: 15px; "></i></button>
+			  </div>
+		  </section>
+
+		  <section class="appoinment mt-4 mb-4">
+			  <div class="appoinment-data">
+				<div class="container p-5">
+					<div class="row">
+						<div class="col-md-12">
+							<h1 class="text-center pt-5"><span class="appoinment-text p-2">Book An Appoinment</span></h1>
+						</div>
+					</div>
+				</div>
+				<div class="container  justify-content-center">
+					<div class="row">
+						<div class=" col-md-6">
+							<input class="input-style col-12" type="text" placeholder="Your Name">
+						</div>
+						<div class=" col-md-6">
+							<input class="input-style col-12" type="text" placeholder="Your Phone">
+						</div>
+					</div>
+					<div class="row">
+						<div class=" col-md-6">
+							<input class="input-style col-12" type="text" placeholder="Your Email">
+						</div>
+						<div class=" col-md-6">
+							<input class="input-style col-12" type="text" placeholder="Your Address">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 col-12">
+							<select class="col-12 text-white input-choose" name="" id="">
+								<option value="">Choose Your Schedule</option>
+								<option value="">9 AM to 10 PM</option>
+								<option value="">2 AM to 4 PM</option>
+								<option value="">8 AM to 10 PM</option>
+							</select>
+						</div>
+						<div class="col-md-6 col-12">
+							<select class="col-12 text-white input-choose" name="" id="">
+								<option value="">Choose Your Schedule</option>
+								<option value="">9 AM to 10 PM</option>
+								<option value="">2 AM to 4 PM</option>
+								<option value="">8 AM to 10 PM</option>
+							</select>
+						</div>
+					</div>
+					<div class="row pt-3 d-flex justify-content-center">
+						<div class="col-12">
+							<textarea name="" id="input-textarea" placeholder="Your Message" cols="30" rows="5"></textarea>
+						</div>
+					</div>
+					<div class="row">
+						<div class="text-center mt-5 mb-5   col-12">
+							<button class="btn btn-primary">Booking Now</button>
+						</div>
+					</div>
+				</div>
+			  </div>
+		  </section>
+
+		  <section class="dentist-part bg-light">
+			  <div class="container">
+				  <div class="row">
+					  <div class="col md-6 col-12 mb-5">
+						  <h1 class="text-center pt-5"><span class="dentist-underline p-2 mb-3">Our Dentist</span></h1>
+					  </div>
+				  </div>
+			  </div>
+			  
+			  <div class="container mb-5">
+				  <div class="row three-dentist">
+					  <div class="col-sm-6 col-lg-3 d-flex justify-content-center mb-5">
+						<div class="card shadow border-danger " style="width: 20rem;">
+							<img src="https://preview.colorlib.com/theme/dento/img/bg-img/x9.png.pagespeed.ic.A5OdBpmZhq.webp" class="card-img-top" alt="...">
+							<div class="card-body text-center">
+							  <p class="card-text h4">Michael Barley</p>
+							  <p class="card-text h6">Implant Expert</p>
+							</div>
+						  </div>
+					  </div>
+					  <div class="col-sm-6 col-lg-3 d-flex justify-content-center mb-5">
+						<div class="card shadow border-danger " style="width: 20rem;">
+							<img src="https://preview.colorlib.com/theme/dento/img/bg-img/x9.png.pagespeed.ic.A5OdBpmZhq.webp" class="card-img-top" alt="...">
+							<div class="card-body text-center">
+							  <p class="card-text h4">Michael Barley</p>
+							  <p class="card-text h6">Implant Expert</p>
+							</div>
+						  </div>
+					  </div>
+					  <div class="col-sm-6 col-lg-3 d-flex justify-content-center mb-5">
+						<div class="card shadow border-danger " style="width: 20rem;">
+							<img src="https://preview.colorlib.com/theme/dento/img/bg-img/x10.png.pagespeed.ic.Evdko4uIO3.webp" class="card-img-top" alt="...">
+							<div class="card-body text-center">
+							  <p class="card-text h4">Michael Barley</p>
+							  <p class="card-text h6">Implant Expert</p>	
+							</div>
+						  </div>
+					  </div>
+					  <div class="col-sm-6 col-lg-3 d-flex justify-content-center mb-5">
+						<div class="card shadow border-danger " style="width: 20rem;">
+							<img src="https://preview.colorlib.com/theme/dento/img/bg-img/x11.png.pagespeed.ic.Q1i2nU0yLu.webp" class="card-img-top" alt="...">
+							<div class="card-body text-center">
+								<p class="card-text h4">Michael Barley</p>
+								<p class="card-text h6">Implant Expert</p>	
+							</div>
+						  </div>
+					  </div>
+				  </div>
+			  </div>
+		  </section>
+
+		  
+
+		<!--   
+			  Extra Part 
+			 -->
+		  
+		
+<!-- 
+		  <section class="dentist-section">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-4">
+			  			<div class="card1">
+							<div class="imgbox">
+								<img src="https://thumbs.dreamstime.com/b/asia-woman-doctor-isolated-white-38652576.jpg">
+							</div>
+							<div class="content">
+								<h2>Michael Barley</h2>
+								<p>Implant Expert</p>
+							</div>
+			  			</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="card1">
+							<div class="imgbox">
+								<img src="https://thumbs.dreamstime.com/b/asia-male-doctor-portrait-isolated-white-40941977.jpg">
+							</div>
+							<div class="content">
+								<h2>Michael Barley</h2>
+								<p>Implant Expert</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="card1">
+							<div class="imgbox">
+								<img src="https://thumbs.dreamstime.com/b/asia-woman-doctor-isolated-white-38652576.jpg">
+							</div>
+							<div class="content">
+								<h2>Michael Barley</h2>
+								<p>Implant Expert</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		  </section> -->
+
+
+
+		  <section class="patient-bg">
+			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+				  <div class="carousel-item active">
+					  <div class="conrainer">
+						  <div class="row m-5">
+							  <div class="col-4">
+								  <img src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="d-block w-100" alt="..." height="200" width="200" style="clip-path: circle();">
+							  </div>
+							  <div class="col-8 text-white">
+								<p class="d-block w-100" >“I'd been avoiding the dentist for years due to bad experiences. A reminder SMS is sent the working day beforehand. I also had a call confirming appointment. I have been a patient ever since. My dentist is very reassuring and very helpful. Excellent treatment and advice.”</p>
+								<h5 class="d-block w-100" >Arron Ramsey</h5>  
+								<h6 class="d-block w-100" >Dental Patient</h6>  
+							</div>
+						  </div>
+					  </div>
+				  </div>
+				  <div class="carousel-item">
+					  <div class="conrainer">
+						  <div class="row m-5">
+							  <div class="col-4">
+								  <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGVyc29ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="d-block w-100" alt="..." height="200" width="200" style="clip-path: circle();">
+							  </div>
+							  <div class="col-8 text-white d-block w-100">
+								<p class="d-block w-100" >“I'd been avoiding the dentist for years due to bad experiences. A reminder SMS is sent the working day beforehand. I also had a call confirming appointment. I have been a patient ever since. My dentist is very reassuring and very helpful. Excellent treatment and advice.”</p>
+								<h5 class="d-block w-100" >Arron Ramsey</h5>  
+								<h6 class="d-block w-100" >Dental Patient</h6>  
+							</div>
+						  </div>
+					  </div>
+				  </div>
+				  <div class="carousel-item">
+					  <div class="conrainer">
+						  <div class="row m-5">
+							  <div class="col-4">
+								  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcC7tEjV_h-nyGUPrLvGkpsEAEdj5wMpb7Sw&usqp=CAU" class="d-block w-100" alt="..." height="200" width="200" style="clip-path: circle();">
+							  </div>
+							  <div class="col-8 text-white d-block w-100">
+								<p class="d-block w-100" >“I'd been avoiding the dentist for years due to bad experiences. A reminder SMS is sent the working day beforehand. I also had a call confirming appointment. I have been a patient ever since. My dentist is very reassuring and very helpful. Excellent treatment and advice.”</p>
+								<h5 class="d-block w-100" >Arron Ramsey</h5>  
+								<h6 class="d-block w-100" >Dental Patient</h6>  
+							</div>
+						  </div>
+					  </div>
+				  </div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden"></span>
+				</button>
+				<button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden"></span>
+				</button>
+			  </div>
+		  </section>
+
+		  <section>
+			<div class="container">
+				<div class="row">
+					<div class="col md-6 col-12 mb-5">
+						<h1 class="text-center pt-5">
+							<span class="dentist-underline p-2 mb-3">The Latest News</span>
+						</h1>
+					</div>
+				</div>
+			</div>
+			  <div class="container">
+					<div class="row">
+						<div class=" col-md-4 d-flex justify-content-center mb-5">
+							<div class="card shadow border-danger" style="width: 20rem;">
+								<img src="https://preview.colorlib.com/theme/dento/img/bg-img/x4.jpg.pagespeed.ic.LFdi6eUTGU.webp" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">How your mouth bacteria can harm your lungs</h5>
+										<p class="card-text">Donec tempor, lorem et euismod eleifend, est lectus laoreet ante, sed accusan justo diam ...</p>
+									</div>
+								</div>
+							</div>
+						<div class=" col-md-4 d-flex justify-content-center mb-5">
+							<div class="card shadow border-danger" style="width: 20rem;">
+								<img src="https://preview.colorlib.com/theme/dento/img/bg-img/x5.jpg.pagespeed.ic.exvN4apzab.webp" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Why you should avoid sipping your drinks</h5>
+										<p class="card-text">Donec tempor, lorem et euismod eleifend, est lectus laoreet ante, sed accusan justo diam ...</p>
+									</div>
+							</div>
+						</div>
+						<div class=" col-md-4 d-flex justify-content-center mb-5">
+							<div class="card shadow border-danger" style="width: 20rem;">
+								<img src="https://preview.colorlib.com/theme/dento/img/bg-img/x6.jpg.pagespeed.ic.4MfPJk7qiG.webp" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Why you should avoid sipping your drinks</h5>
+										<p class="card-text">Donec tempor, lorem et euismod eleifend, est lectus laoreet ante, sed accusan justo diam ...</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+			  </div>
+		  </section>
+	<footer class="footer">
+		<section class=" footer-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 col-md-3 text-white contact-area mt-5 justify-content-center">
+						<img src="website-logo.png" alt="">
+						<p class="text-white">Etiam sutor risus, dapibus act elefend katen, lacinia sitamet denim. Mauris sagittis kansa interdum dignissim.</p>
+						<ul>
+							<li><i class="fas fa-map-marker-alt  last-font"></i>28 Jackson Street, Chicago, 7788569 USA</li>
+							<li><i class="fas fa-phone-volume last-font"></i>+84. 2252. 2250. 122</li>
+							<li><i class="fas fa-envelope last-font"></i>info.dento@gmail.com</li>
+						</ul>
+					</div>
+
+					<div class="col-sm-6 col-md-3 text-white timing mt-5 justify-content-center">
+						<p class="pl-3">Opening Hours</p>
+						<div class="container">
+							<div class="row">
+								<div class="col-6">
+									<ul>
+										<li>Mon-Wed</li>
+										<li>Thu-Fri</li>
+										<li>Sat</li>
+										<li>Sun</li>
+										<li>Holiday</li>
+									</ul>
+								</div>
+								<div class="col-6">
+									<ul>
+										<li>8.00-18.00</li>
+										<li>8.00-17.00</li>
+										<li>9.00-17.00</li>
+										<li>10.00-17.00</li>
+										<li>Closed</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-md-3 text-white quick-link mt-5 justify-content-center">
+						<p class="pl-3">Quick Link</p>
+						<div class="container">
+							<div class="row">
+								<div class="col-6">
+									<ul>
+										<li>About</li>
+										<li>Contact</li>
+										<li>News</li>
+										<li>Careers</li>
+										<li>Services</li>
+									</ul>
+								</div>
+								<div class="col-6">
+									<ul>
+										<li>FAQ's</li>
+										<li>Policy</li>
+										<li>Advisors</li>
+										<li>Dentist</li>
+										<li>Legals</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-md-3 text-white newsletter mt-5 justify-content-center">
+						<h5 class="text-white pl3">Newsletter</h5>
+						<p>We will send out weekly newest article and some great offers
+						</p>
+						<p class="telegram">
+							<input type="email" placeholder="Email Address">
+							<button type="submit">
+								<i class="fas fa-paper-plane "></i>
+							</button>
+						</p>
+						<div class="social-icons">
+							<ul>
+								<i class="fab fa-facebook-f"></i>
+								<i class="fab fa-twitter"></i>
+								<i class="fab fa-google-plus-g"></i>
+								<i class="fab fa-linkedin-in"></i>
+								<i class="fab fa-pinterest"></i>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container text-secondary">
+				<div class="row">
+					<div class="col-12">
+						<hr>
+					</div>
+				</div>
+				<div class="row text-center">
+					<div class="col-md-12 mb-3">
+						<span>Copyright ©2022 All rights reserved |</span>
+						<pspan>This template is made with <span><i class="far fa-heart"></i></span>  by Colorlib</pspan>
+					</div>
+					<!-- <div class="col-6">
+						<p>This template is made with <span><i class="far fa-heart"></i></span>  by Colorlib</p>
+					</div> -->
+				</div>
+			</div>
+			
+		</section>
+
+	</footer>
+
+	<section>
+		<a href="#">
+			<div class="toparrow">
+				<i class="fas fa-arrow-up"></i>
+			</div>
+		</a>
+	</section>
+</body>
+</html>
+
+
+

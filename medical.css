@@ -1,0 +1,341 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.social_media li{
+    display:inline-block;
+    list-style-type:none;
+    margin-left:5px;
+}
+.slider1{
+    background-image:url(https://images.unsplash.com/photo-1629909613654-28e377c37b09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fGRlbnRpc3R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-size:100% 100%;
+    background-attachment:fixed;
+    padding: 0px;
+}
+.slider2{
+    background-image:url(https://preview.colorlib.com/theme/medilife/img/bg-img/xbreadcumb3.jpg.pagespeed.ic.qp0e6phvUL.webp);
+    background-size:100% 100%;
+    background-attachment:fixed;
+    padding: 0px;
+
+}
+.slider3{
+    background-image:url(https://images.unsplash.com/photo-1593022356769-11f762e25ed9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8ZGVudGlzdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-size:100% 100%;
+    background-attachment:fixed;
+    padding: 0px;
+
+}
+    
+.slider_data{
+    background-color:hsla(250,100%,20%,0.6);
+    top:0;
+    bottom:0px;
+    right:0px;
+    left:0px
+}
+.services_data{
+    background-color:hsla(250,100%,20%,0.6);
+    top:0;
+    bottom:0px;
+    right:0px;
+    left:0px
+}
+    
+@media(max-width:666px){
+    .displaysize{
+        font-size:22px;
+    }
+    .slidertext{
+        font-size:15px;
+    }
+    .slidersize{
+        height:350px;
+    }	
+}
+@media(min-width:667px){
+    .displaysize{
+        font-size:40px;
+    }
+    .slidertext{
+        font-size:20px;
+    }
+    .slidersize{
+        height:550px;
+    }
+}
+
+.border_title{
+    border-bottom: 5px solid blue;
+}
+
+.services{
+    background-image: url(https://images.unsplash.com/photo-1576671081837-49000212a370?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1098&q=80);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.table_background{
+    background-color: rgb(241, 236, 236);
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+th{
+    border: 5px solid white;
+}
+
+tr{
+    border: 5px solid white;
+}
+
+td{
+    border: 5px solid white;
+}
+
+.appoinment{
+    background-image: url(https://images.unsplash.com/photo-1530210124550-912dc1381cb8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG1lZGljYWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-size: 100% 100%;
+    background-attachment: fixed;  
+}
+.appoinment-data{
+    z-index: 999;
+    background-color:hsla(250,100%,20%,0.6);
+    top:0;
+    bottom:0px;
+    right:0px;
+    left:0px;
+}
+.appoinment-text{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+.appoinment-text{
+    border-bottom: 5px solid blue;
+}
+.input-style{
+    height: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-top: 20px;
+}
+.input-choose{
+    height: 40px;
+    
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-top: 20px;
+}
+option{
+    background-color: white;
+    color: black;
+}
+#input-textarea{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-top: 20px;
+}
+.appoinment-data div div input{
+    font-style: italic;
+    color: white;
+}
+.appoinment-data div div select {
+    font-style: italic;
+}
+.appoinment-data div div textarea{
+    font-style: italic;
+    color: white;
+}
+
+.dentist-section{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: #7f9ead;
+}
+.card1{
+    position: relative;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    padding: 35px 50px;
+    margin: 20px;
+    background: #fff;
+    cursor: pointer;
+}
+.card1:hover{
+    height: 380px;
+}
+.card1  .content{
+    opacity: 1;
+}
+.imgbox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-80px);
+    z-index: 99;
+}
+.imgbox img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+.content{
+    padding: 30px 20px;
+    text-align: center;
+    transform: translateY(-165px);
+    opacity: 0;
+    transition: 0.3s;
+}
+.content h2{
+    color: black;
+    font-size: 25px;
+}
+
+.dentist-underline{
+    border-bottom: 5px solid blue;
+}
+
+
+.three-dentist div div div {
+    background-color: rgba(0, 0, 255, 0.469); 
+}
+
+
+.patient-bg{
+    background-image:url(https://images.unsplash.com/photo-1625134673337-519d4d10b313?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGRvY3RvcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+#carouselExampleControls{
+    background-color:hsla(250,100%,20%,0.6);
+}
+.footer{
+    background-image: url(https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGRvY3RvcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.footer-bg{
+    background-color:rgba(17, 0, 102, 0.415);
+}
+
+.contact-area ul li{
+    font-family:Helvetica;
+    list-style: none;
+    padding: 5px;
+}
+.contact-area ul li p{
+    font-family: sans-serif;
+}
+.contact-area img{
+    margin: 20px 0px 20px 0px;
+}
+.last-font{
+    font-size: 20px;
+    color: aqua;
+    margin-right: 10px;
+}
+
+.timing p{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 20px 0px 20px 0px;
+}
+.timing div div div ul li{
+    list-style: none;
+    padding: 5px;
+    font-family: Times;
+}
+.timing div div div div ul{
+    display: inline-block;
+}
+
+.quick-link p{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 20px 0px 20px 0px;
+}
+.quick-link div div div ul li{
+    list-style: none;
+    padding: 5px;
+    font-family:  Times;
+}
+.quick-link div div div ul li:hover{
+    color: blue;
+}
+.quick-link div div div div ul{
+    display: inline-block;
+}
+
+.newsletter{
+    width: 100%;
+}
+.newsletter h5{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 20px 0px 20px 0px;
+}
+.newsletter p{
+    padding: 5px;
+    font-family: sans-serif;
+}
+.newsletter input{
+    width: 100%;
+    padding: 6px;
+    width: 180px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.telegram i{
+    background-color: #00AEEF;
+    padding: 10px 10px;
+    border: none;
+    color: white;
+    margin-left: -7px;
+}
+.social-icons ul i{
+    list-style: none;
+    display: inline-block;
+    font-size: 17px;
+    padding: 10px;
+}
+
+hr{
+    color: white;
+}
+
+.toparrow i{
+    z-index: 9999;
+    padding: 10px;
+}
+
+.toparrow{
+    height: 30px;
+    width: 30px;
+    background-color: #00aeef;
+    position: fixed;
+    bottom: 35px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+}
